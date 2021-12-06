@@ -51,3 +51,40 @@ let FavoriteColor = 'blue';
 // <div class + "first-name">Sabrina</div>
 // SCREAMING_CASE
 
+let person = {
+    firstName: 'Sabrina',
+    lastName: 'Ciaciura',
+    age: 30
+}
+
+
+/*
+
+Expressions 
+- Statement / phrase
+- Evaluates / resolves to a single value
+- Can even be a function
+- You can assign any expression to a variable
+- Expression can be used inside another expression
+
+A variable is like a container for a value, it can be reassigned
+
+Operators
+++      Increment Operator
+--      Decrement Operator
++=      Itself plus the new value
+-=      Itself minus the new value
+
+"+"" operator does two things:
+- Math, adds two numbers together
+- Joins two strings together (concatenation)
+
+"-"" operator only does math
+
+Number function
+Number( '5' )
+>> 5
+parseInt( gets rid of decimal )
+parseFloat ( keeps decimal )
+
+*/
