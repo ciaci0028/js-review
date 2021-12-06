@@ -142,3 +142,109 @@ if ( myNumber > 8 ) {
 */
 
 
+/*
+
+ARRAYS & LOOPS
+
+- An array is a list of things
+- 90% of the time we loop through the arrays
+
+*/
+
+let beverages = [
+    'Bubly',
+    'Jasmine Tea',
+    'Water',
+    'Coffee',
+];
+
+/*
+
+Kinds of loops:
+- for
+- for...of (99% of the time)
+- for...in
+- while
+
+*/
+
+for ( let beverage of array ) {
+    console.log( `I am drinking ${ beverage }`  );
+}
+
+// Use this for looping but not an array
+
+for ( let i = 0; i < beverages.length; i++ ) {
+    let beverage = beverages[i];
+    console.log( ` I am drinking ${ beverage }` );
+}
+
+// Displays index, not the actual value
+for ( let i in beverages ) {
+    let beverage = beverages[i];
+    console.log( ` I am drinking ${ beverage }` );
+}
+
+// While loops
+let forecast;
+while (forecast.windSpeed > 50 ) {
+    forecast = goAsk();
+}
+
+let isGameRunning = true;
+while( isGameRunning ){
+    nextTick();
+}
+
+$('#stopbuttom').on( 'click' , function() ) {
+    isGameRunning = false;
+}
+
+/*
+
+FUNCTIONS
+- What do I need input and what do I need to output
+- Aka arguments and return value
+
+*/
+
+function generateSong( lyrics, notes ) {
+    let song = `
+    ${ lyrics }
+    ${ notes }
+    `;
+    return song;
+} 
+
+let mySong = generateSong( 'hey hey hey', 'C F G' );
+console.log( 'check out my song:', mySong );
+
+// Function declaration
+// This is hoisted, meaning it can be called before it is declared
+function sum( n1, n2 ){
+    return n1 + n2;
+}
+
+// Function expression
+// Annonymous function and assign it to a variable
+let sum = function( n1, n2 ) {
+    return n1 + n2;
+}
+
+function sayHello() {
+    console.log( 'hello' );
+}
+
+function twoTimes( fn ) {
+    fn();
+    fn();
+}
+
+twoTimes( sayHello );
+// OR
+
+// Common pattern in Javascript called "callback function"
+twoTimes( function()  {
+    console.log( 'hello' );
+} );
+
