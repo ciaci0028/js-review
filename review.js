@@ -101,4 +101,44 @@ null;           // Intentionally nothing
 undefined;      // Accidentally nothing, function with no return value
 // not defined  // An undeclared variable, error, not declared
 
+/*
+
+CONDITIONALS
+- Putting something through a conditional creates a boolean
+- Having a value makes it truthy
+- Be as explicit as possible
+
+*/
+
+if ( someBoolean ) {
+    // then, do this
+}
+else if ( someBoolean ) {
+    // then do that
+}
+else {
+    // Do this, if nothing else is truthy
+}
+
+// Conditional Operator
+// - Always returns a boolean
+
+if ( myNumber > 8 ) {
+    // Do whatever...
+    // Resolves to a boolean
+}
+
+/*
+
+>       More than
+<       Less than
+>=      Greater than or equal to
+<=      Lesser than or equal to
+===     Triple equals (exactly equals)
+==      Double equals (tries to coerce the values to be the same type, then compares)
+!==     Not equals
+!=      Not equals (coerces type)
+
+*/
+
 
