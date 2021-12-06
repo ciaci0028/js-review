@@ -70,10 +70,15 @@ Expressions
 A variable is like a container for a value, it can be reassigned
 
 Operators
+- A shortcut way to act upon a value
+
 ++      Increment Operator
 --      Decrement Operator
 +=      Itself plus the new value
 -=      Itself minus the new value
+*=      Itself multiplied by the new value
+/=      Itself dividied by the new value
+%=      Modulus operator, gives remainder
 
 "+"" operator does two things:
 - Math, adds two numbers together
