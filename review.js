@@ -70,7 +70,7 @@ Expressions
 A variable is like a container for a value, it can be reassigned
 
 Operators
-- A shortcut way to act upon a value
+- Performs some operation on single or mulitple operands
 
 ++      Increment Operator
 --      Decrement Operator
@@ -93,3 +93,12 @@ parseInt( gets rid of decimal )
 parseFloat ( keeps decimal )
 
 */
+
+// Anti-values
+// Values that are not values
+NaN;            // Not a Number, usually a type coercion
+null;           // Intentionally nothing 
+undefined;      // Accidentally nothing, function with no return value
+// not defined  // An undeclared variable, error, not declared
+
+
