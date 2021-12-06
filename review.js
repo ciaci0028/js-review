@@ -19,4 +19,35 @@ Jargon!
 $   - bling, dollar sign, jQuery
 NaN - Not a Number, bread
 
+*/ 
+
+/*
+
+Primitive Data Types
+
+    Strings         'taco'
+    Numbers         18
+    Boolean         true / false
+    Undefined       undefined
+    Null            null
+
+
+Complex Data Types
+
+    Arrays          [ 1, 2, 3 ], [ 'hello', 'world' ]
+    Objects         { firstName: 'Sabrina', lastName: 'Ciaciura' }
+
 */
+
+
+// Naming convention
+// Always use camelCase
+let firstName = 'Sabrina';
+// snake_case
+let last_name = 'Ciaciura';
+// PasqalCase aka UpperCamelCase
+let FavoriteColor = 'blue';
+// kebab-case (in html)
+// <div class + "first-name">Sabrina</div>
+// SCREAMING_CASE
+
