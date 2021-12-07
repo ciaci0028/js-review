@@ -205,6 +205,8 @@ $('#stopbuttom').on( 'click' , function() ) {
 FUNCTIONS
 - What do I need input and what do I need to output
 - Aka arguments and return value
+- Local versus global scope
+- Wnat to avoid using global scope as much as possible to avoid confusion
 
 */
 
@@ -248,3 +250,11 @@ twoTimes( function()  {
     console.log( 'hello' );
 } );
 
+// Built-in functions
+Number( '5' ); // Converts string to number
+parseFloat( '312.23' ); // Converts and keeps decimal
+parseInt( '233.44' ); // Converts but discards decimal
+String( 2343 ); // Converts to a string
+
+// Object method
+array.push();
